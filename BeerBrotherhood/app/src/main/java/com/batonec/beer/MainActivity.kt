@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             BeerBrotherhoodTheme {
-                var selectedTab by remember { mutableStateOf(BeerNavigationTab.HOME) }
+                var selectedTab by remember { mutableStateOf(BeerNavigationTab.MARKET) }
                 Scaffold(
                     content = { insets ->
                         insets.toString() // todo: respect insets

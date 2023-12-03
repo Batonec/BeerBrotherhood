@@ -14,6 +14,7 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import com.batonec.beer.content.BeerNavigationTab.HOME
 import com.batonec.beer.content.BeerNavigationTab.MARKET
 import com.batonec.beer.content.BeerNavigationTab.PROFILE
+import com.batonec.beer.content.market.MarketScreen
 
 enum class BeerNavigationTab { HOME, MARKET, PROFILE }
 

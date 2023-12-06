@@ -76,6 +76,7 @@ private fun RowScope.Titles() {
     }
 }
 
+@Suppress("MagicNumber")
 @Composable
 private fun BeerCounter() {
     val height = 120.dp // todo allocations? value class?

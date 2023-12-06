@@ -58,6 +58,7 @@ private fun MarketList() {
     }
 }
 
+@Suppress("MagicNumber")
 @Composable
 private fun Bet() {
     Card(
